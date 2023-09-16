@@ -1,0 +1,93 @@
+.body{
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+hr{
+    height: 2px;
+    background-color: #176b87;;
+}
+
+.header1{
+    font-size: 1.563rem;
+    font-family: 'Karla';
+    color: #176b87;
+    font-weight: 700;
+}
+
+.header2{
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 8px 0px 8px 0px
+}
+
+.sectionDetailsContainer{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.sectionDetailsContainerItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.sectionDetailsText{
+    color: black;
+    font-family: 'Karla';
+}
+
+.bodyList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textItem{
+    font-size: 1rem;
+}
+
+.educationDetailsSection{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skillsContainerParent{
+    display: flex;
+    gap: 32px;
+    margin-left: 16px;
+}
+
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skillsItem{
+    font-size: 1.25rem;
+    font-family: 'Karla';
+    display: flex;
+    gap: 8px;
+}
+
+.skillsHeader{
+    font-size: 1.563rem;
+    font-weight: 600;
+    font-family: Karla;
+}
+
+.educationSkillsContainerParent{
+    display: flex;
+    gap: 48px;
+}
+
+
