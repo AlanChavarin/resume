@@ -95,4 +95,8 @@ hr{
     gap: 48px;
 }
 
+.flexSpaceBetween{
+    justify-content: space-between;
+}
+
 
