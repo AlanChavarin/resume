@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- header CSS -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+
+
+</head>
+<body>
+    <div class="header">
+        <div>
+            <div class="name">Alan Chavarin</div>
+            <div class="title"><em>Fullstack Software Engineer</em></div>
+        </div>
+        <div class="contact">
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                San Diego, CA
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <a class="detailsText" href="tel:619-748-0638">619-748-0638</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <a class="detailsText" href="mailto: alanchavarin4@hotmail.com">alanchavarin4@hotmail.com</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-linkedin"></i>
+                <a class="detailsText" href="https://www.linkedin.com/in/alanchavarin/">Alan Chavarin</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <a class="detailsText" href="https://www.alanchavarin.dev">www.alanchavarin.dev</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="body">
+
+        <!-- Skills -->
+        <div class="container">
+
+            <div class="header1">
+                <i class="fa-solid fa-pen"></i>
+                Summary
+            </div>
+
+            <hr>
+
+            <div class="sectionDetailsText">
+                <div class="textItem">
+                    Enthusiastic Software Engineer actively pursuing a Computer Science degree. Strong skills using the MERN stack (MongoDB, Express.js, React.js, Node.js) to create user-friendly interfaces, back-end APIs, and document-based database designs. Ready to take the next step in my career to apply these skills in a collaborative team environment.
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Projects container -->
+        <div class="container">
+
+            <div class="header1">
+                <i class="fa-solid fa-briefcase"></i>
+                Projects
+            </div>
+
+            <hr>
+
+            <div class="sectionDetailsContainer flexSpaceBetween">
+                <div class="header2 sectionDetailsContainerItem">
+                    Eye of Ophidia | Developer
+                </div>
+                <div class="header2 sectionDetailsContainerItem">
+                    <!-- <i class="fa-regular fa-calendar"></i> -->
+                    <div>September 2022 - Present</div>
+                </div>
+            </div>
+            <div class="sectionDetailsContainer">
+                <div class="sectionDetailsContainerItem">
+                    <i class="fa-solid fa-globe"></i>
+                    <a class="sectionDetailsText" href="https://www.eyeofophidia.net">www.eyeofophidia.net</a>
+                </div>
+                <div class="sectionDetailsContainerItem">
+                    <i class="fa-brands fa-github"></i>
+                    <a class="sectionDetailsText" href="https://github.com/AlanChavarin/eye-of-ophidia">www.github.com/AlanChavarin/eye-of-ophidia</a>
+                </div>
+            </div>
+            <div class="sectionDetailsText">
+                <ul class="bodyList">
+                    <li class="textItem">
+                        Technology used: HTML, CSS, Javascript, React.js, Node.js, Express.js, MongoDB. 
+                    </li>
+                    <li class="textItem">
+                        Designed to catalog all official live tournament matches for the competitive trading card game <em>FaBTCG</em>, attracting over 4,100 unique users from 59 countries since April 2023.
+                    </li class="textItem">
+                    <li class="textItem">
+                        Users can quickly and conveniently search the database for matches by player names, events, date ranges, and matchups, sustaining a lifetime average engagement time of 1 minute and 20 seconds and achieving a user retention rate of 30%. 
+                    </li>
+                    <li class="textItem">
+                        Built a custom authentication system using the JSON Web Token library, granting trusted community members the ability to efficiently catalog data. This effort resulted in the cataloging of over 1,100 matches from more than 100 tournaments.
+                    </li>
+                    <li class="textItem">
+                        Consistently adds new tournaments, resulting in an average weekly user acquisition rate of 190.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- education + skills container -->
+        <div class="educationSkillsContainerParent">
+            <!-- Education Container -->
+            <div class="container">
+                <div class="header1">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Education
+                </div>
+
+                <hr>
+
+                <div class="sectionDetailsContainer">
+                    <div class="header2 sectionDetailsContainerItem">
+                        August 2022 - Present
+                    </div>
+                </div>
+                <div class="sectionDetailsText educationDetailsSection">
+                    <div class="textItem"><em>San Diego State University</em></div>
+                    <div class="textItem">Bachelor of Science in Computer Science <em>(in progress)</em></div>
+                    <div class="textItem"><b>Projected to graduate in the Fall of 2025</b></div>
+                </div>
+                <div class="sectionDetailsContainer">
+                    <div class="header2 sectionDetailsContainerItem">
+                        July 2019 - May 2022
+                    </div>
+                </div>
+                <div class="sectionDetailsText educationDetailsSection">
+                    <div class="textItem"><em>South Western Community College</em></div>
+                    <div class="textItem">Associate of Science Transfer (AST) in Computer Science</div>
+                </div>
+                <!-- <div class="sectionDetailsContainer">
+                    <div class="header2 sectionDetailsContainerItem" style="margin-top: 32px;">
+                        Relevant Course Work
+                    </div>
+                </div>
+                <div class="sectionDetailsText educationDetailsSection">
+                    <ul class="bodyList">
+                        <li class="textItem">
+                            Intro to Software Systems
+                        </li>
+                        <li class="textItem">
+                            Data Structures
+                        </li>
+                        <li class="textItem">
+                            Intro to Computer Programming
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+
+            <!-- Skills -->
+            <div class="container">
+
+                <div class="header1">
+                    <i class="fa-solid fa-code"></i>
+                    Languages and Skills
+                </div>
+
+                <hr>
+
+                <div class="skillsContainerParent">
+
+                    <div class="skillsContainer">
+                        <div class="skillsHeader">
+                            Front-end
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-html5"></i> HTML
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-css3-alt"></i> CSS
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-js"></i> JavaScript
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-react"></i> React.js
+                        </div>
+                    </div>
+
+                    <div class="skillsContainer">
+                        <div class="skillsHeader">
+                            Back-end
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-solid fa-leaf"></i> MongoDB
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-node"></i> Node.js
+                        </div>
+                        <div class="skillsItem">
+                            <i class="fa-brands fa-node-js"></i> Express.js
+                        </div>
+                    </div>
+
+                    <div class="skillsContainer">
+                        <div class="skillsHeader">
+                            Testing
+                        </div>
+                        <div class="skillsItem">
+                            <img src="cypress.svg" alt=""> Cypress
+                        </div>
+                        <div class="skillsItem">
+                            <img src="jest.svg" alt="" height="25%"> Jest
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>   
+
+    </div>
+</body>
+</html>
