@@ -28,6 +28,12 @@ body{
     font-family: 'Inconsolata';
 }
 
+.title2{
+    font-size: 1.563rem;
+    color: white;
+    font-family: 'Inconsolata';
+}
+
 .contact{
     margin-top: 8px;
     font-family: 'Inconsolata';
